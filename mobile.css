@@ -1,6 +1,12 @@
 @media only screen and (max-width: 600px){
-    .nav-container, .nav-list, #home {
+    .nav-container, .nav-list {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2% 2% 0%;
+    }
+    #home {
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         margin: 2% 2% 0%;
@@ -21,5 +27,10 @@
     #home p {
         padding-bottom: 10px;
     }
-
+    .e-commerce {
+        margin: 2% 2%;
+    }
+    .shop-container {
+    justify-content: center;
+    } 
 }
