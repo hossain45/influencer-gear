@@ -33,4 +33,11 @@
     .shop-container {
     justify-content: center;
     } 
+    .cart-container {
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
+    .cart-img {
+        width: 320px;
+    }
 }
